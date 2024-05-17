@@ -1,0 +1,14 @@
+title: NHS-R Community Quarto Template
+author: Nicola Rennie
+version: 0.0.1
+contributes:
+  formats: 
+    revealjs:
+      logo: nhsr-logo.png
+      theme: NHSRstyle.scss
+      height: 900
+      width: 1600
+      auto-stretch: false
+      title-slide-attributes:
+        data-background-color: "#D9DBDB"
+        

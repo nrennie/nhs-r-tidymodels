@@ -1,12 +1,11 @@
 /*-- scss:defaults --*/
 
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 // font family
-$font-family-sans-serif: 'Roboto', Arial, sans-serif !default;
-$presentation-heading-font: 'Roboto Slab', Times New Roman, serif  !default;
+$font-family-sans-serif: 'Open Sans', Arial, sans-serif !default;
+$presentation-heading-font: 'Open Sans', Arial, sans-serif !default;
 
 // font size
 $presentation-h1-font-size: 2.6em;
@@ -20,14 +19,14 @@ $presentation-line-height: 1.5em;
 $presentation-heading-color: #000000 !default;
 
 // code
-$code-color: #b20e10 !default;
+$code-color: #005EB8 !default;
 $code-block-font-size: 0.6em;
 $code-block-border-color: #000000;
 $code-block-bg: #fafafa;
 
 // bg colours 
 $body-color: #000000;
-$link-color: #b20e10;
+$link-color: #005EB8;
 $body-bg: #ffffff;
 
 /*-- scss:rules --*/
@@ -84,16 +83,20 @@ section.has-dark-background a, section.has-dark-background a:hover {
 }
 
 .reveal .slide-menu-button {
-    left: 5px;
-    top: 15px;
-    padding-left: 10px;
-    color: #b4b7b8;
-  }
+  left: 5px;
+  top: 15px;
+  padding-left: 10px;
+  color: #b4b7b8;
+}
 
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #b20e10;
+  color: $link-color;
   height: 2%;
+}
+
+.left {
+  text-align: left !important
 }
 
 .right {
