@@ -12,6 +12,38 @@ bibliography: references.bib
 
 # Welcome!
 
+## Introductions
+
+::: columns
+::: {.column .right width="70%"}
+
+Lecturer in Health Data Science within the [Centre for Health Informatics, Computing, and Statistics](https://chicas.lancaster-university.uk/).
+
+<br>
+
+Background in statistics, operational research , and data science consultancy.
+
+<br>
+
+Collaborate with local NHS trusts on data science projects.
+
+:::
+
+::: {.column width="30%"}
+
+![](images/CHICASlogo.png){fig-align="center" fig-alt="CHICAS logo" width=70%}
+
+:::
+
+:::
+
+
+::: {.fragment}
+
+Feel free to introduce yourself in the chat!
+
+:::
+
 ## What to expect during this workshop
 
 The workshop will run for *2 hours*.
