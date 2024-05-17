@@ -13,14 +13,15 @@ plot_data <- tibble::tribble(
 )
 node_data <- tibble::tibble(name = unique(c(plot_data$from, plot_data$to))) |> 
   dplyr::mutate(label = gsub("\\d+$", "", name),
-                colour = c(rep("white", 3), "#bec0c2", "#b20e10", "#bec0c2", "#b20e10")) |> 
+                colour = c(rep("white", 3), "#bec0c2", "#005EB8", "#bec0c2", "#005EB8")) |> 
   dplyr::mutate(label = stringr::str_wrap(label, 13))
 ggflowchart(plot_data, node_data, fill = colour,
             alpha = 0.5, x_nudge = 0.5,
             text_size = 4.2) +
   labs(title = "Should I walk to work?") +
   scale_fill_identity() +
-  theme_void(base_size = 20)
-ggsave("slides/images/rf_01.png", width = 4, height = 4, units = "in")
+  theme_void(base_size = 20) +
+  theme(plot.title = element_text(hjust = 0.5))
+ggsave("slides/images/rf_01.png", width = 5, height = 4, units = "in")
 
 
