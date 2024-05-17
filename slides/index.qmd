@@ -3,7 +3,7 @@ title: "Introduction to machine learning with {tidymodels}"
 subtitle: "NHS-R Community<br><small>22 May 2024</small>"
 author: "Dr Nicola Rennie"
 format:
-  LUstyle-revealjs:
+  NHSRstyle-revealjs:
     self-contained: true
     auto-stretch: false
     footer: "[nrennie.github.io/nhs-r-tidymodels](https://nrennie.github.io/nhs-r-tidymodels)"
@@ -45,21 +45,11 @@ I hope you end up with more questions than answers after this workshop!
 
 ## Workshop resources
 
-::: columns
-::: {.column}
-
 * GitHub: [github.com/nrennie/nhs-r-tidymodels](https://github.com/nrennie/nhs-r-tidymodels)
 
+<br>
+
 * Slides: [nrennie.github.io/nhs-r-tidymodels](https://nrennie.github.io/nhs-r-tidymodels)
-
-:::
-::: {.column}
-
-![](images/qr-code-slides.png){fig-align="center" fig-alt="QR code" width=70%}
-
-:::
-
-:::
 
 ## Data
 
@@ -283,11 +273,11 @@ Open `exercises/exercise_01.R` for prompts.
 ```{r}
 #| label: ex-1-timer
 countdown::countdown(minutes = 10,
-                    color_border = "#b20e10",
-                    color_text = "#b20e10",
+                    color_border = "#005EB8",
+                    color_text = "#005EB8",
                     color_running_text = "white",
-                    color_running_background = "#b20e10",
-                    color_finished_text = "#b20e10",
+                    color_running_background = "#005EB8",
+                    color_finished_text = "#005EB8",
                     color_finished_background = "white",
                     top = 0,
                     margin = "1.2em",
@@ -421,11 +411,11 @@ Open `exercises/exercise_02.R` for prompts. You can also use `examples/example_0
 ```{r}
 #| label: ex-2-timer
 countdown::countdown(minutes = 10,
-                    color_border = "#b20e10",
-                    color_text = "#b20e10",
+                    color_border = "#005EB8",
+                    color_text = "#005EB8",
                     color_running_text = "white",
-                    color_running_background = "#b20e10",
-                    color_finished_text = "#b20e10",
+                    color_running_background = "#005EB8",
+                    color_finished_text = "#005EB8",
                     color_finished_background = "white",
                     top = 0,
                     margin = "1.2em",
@@ -448,7 +438,7 @@ A tree-like model of decisions and their possible consequences.
 :::
 ::: {.column}
 
-![](images/rf_01.png){fig-align="center" fig-alt="Decision tree about walking to work and the weather" width=80%}
+![](images/rf_01.png){fig-align="center" fig-alt="Decision tree about walking to work and the weather" width=90%}
 
 :::
 :::
@@ -513,11 +503,11 @@ Open `exercises/exercise_03.R` for prompts. You can also use `examples/example_0
 ```{r}
 #| label: ex-3-timer
 countdown::countdown(minutes = 10,
-                    color_border = "#b20e10",
-                    color_text = "#b20e10",
+                    color_border = "#005EB8",
+                    color_text = "#005EB8",
                     color_running_text = "white",
-                    color_running_background = "#b20e10",
-                    color_finished_text = "#b20e10",
+                    color_running_background = "#005EB8",
+                    color_finished_text = "#005EB8",
                     color_finished_background = "white",
                     top = 0,
                     margin = "1.2em",
@@ -632,11 +622,11 @@ Open `exercises/exercise_04.R` for prompts. You can also use `examples/example_0
 ```{r}
 #| label: ex-4-timer
 countdown::countdown(minutes = 10,
-                    color_border = "#b20e10",
-                    color_text = "#b20e10",
+                    color_border = "#005EB8",
+                    color_text = "#005EB8",
                     color_running_text = "white",
-                    color_running_background = "#b20e10",
-                    color_finished_text = "#b20e10",
+                    color_running_background = "#005EB8",
+                    color_finished_text = "#005EB8",
                     color_finished_background = "white",
                     top = 0,
                     margin = "1.2em",
@@ -689,13 +679,16 @@ There are many machine learning topics and {tidymodels} functions we haven't cov
 
 * GitHub: [github.com/nrennie/nhs-r-tidymodels](https://github.com/nrennie/nhs-r-tidymodels)
 
+<br>
+
 * Slides: [nrennie.github.io/nhs-r-tidymodels](https://nrennie.github.io/nhs-r-tidymodels)
 
 
-## 
+##
 
-::: columns
-::: {.column}
+::: {.left}
+
+**Contact**
 
 <br>
 
@@ -709,10 +702,4 @@ There are many machine learning topics and {tidymodels} functions we haven't cov
 
 {{< fa briefcase >}} [chicas.lancaster-university.uk](https://chicas.lancaster-university.uk/)
 
-:::
-::: {.column}
-
-![](images/qr-code.png){fig-align="center" fig-alt="QR code" width=70%}
-
-:::
 :::
