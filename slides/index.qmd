@@ -15,7 +15,7 @@ bibliography: references.bib
 ## Introductions
 
 ::: columns
-::: {.column .right width="70%"}
+::: {.column width="70%"}
 
 Lecturer in Health Data Science within the [Centre for Health Informatics, Computing, and Statistics](https://chicas.lancaster-university.uk/).
 
@@ -39,6 +39,8 @@ Collaborate with local NHS trusts on data science projects.
 
 
 ::: {.fragment}
+
+<br>
 
 Feel free to introduce yourself in the chat!
 
@@ -300,7 +302,7 @@ Open `exercises/exercise_01.R` for prompts.
 
 * Create some cross-validation folds
 
-* Build a recipe and workflow
+* Build a recipe and workflow. `SAE` is the response variable.
 
 ```{r}
 #| label: ex-1-timer
