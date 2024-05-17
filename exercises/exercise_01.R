@@ -19,7 +19,7 @@
 # Build a recipe ----------------------------------------------------------
 
 # Use the `recipe()` function and the `step_*() functions`
-
+# `SAE` is the response variable.
 
 # create a workflow and add the recipe
 
