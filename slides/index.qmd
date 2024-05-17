@@ -48,9 +48,9 @@ I hope you end up with more questions than answers after this workshop!
 ::: columns
 ::: {.column}
 
-* GitHub: [github.com/nrennie/r-pharma-2023-tidymodels](https://github.com/nrennie/r-pharma-2023-tidymodels)
+* GitHub: [github.com/nrennie/nhs-r-tidymodels](https://github.com/nrennie/nhs-r-tidymodels)
 
-* Slides: [nrennie.github.io/r-pharma-2023-tidymodels](https://nrennie.github.io/r-pharma-2023-tidymodels)
+* Slides: [nrennie.github.io/nhs-r-tidymodels](https://nrennie.github.io/nhs-r-tidymodels)
 
 :::
 ::: {.column}
