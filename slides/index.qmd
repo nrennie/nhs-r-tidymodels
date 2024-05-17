@@ -699,6 +699,8 @@ There are many machine learning topics and {tidymodels} functions we haven't cov
 
 * [Blog by Julia Silge](https://juliasilge.com/blog/)
 
+* [{tidyverse} blog](https://www.tidyverse.org/blog/2024/03/tidymodels-fairness/)
+
 :::
 
 ::: {.column}
