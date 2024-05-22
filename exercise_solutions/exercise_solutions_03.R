@@ -23,7 +23,7 @@ ex_rf_grid <- tune_grid(
 # Fit model ---------------------------------------------------------------
 
 ex_rf_highest_roc_auc <- ex_rf_grid |>
-  select_best("roc_auc")
+  select_best(metric = "roc_auc")
 
 ex_final_rf <- finalize_workflow(
   add_model(ex_wf, ex_rf_tune_spec),

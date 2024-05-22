@@ -18,7 +18,7 @@ ex_svm_grid <- tune_grid(
 # Fit model ---------------------------------------------------------------
 
 ex_svm_highest_roc_auc <- ex_svm_grid |>
-  select_best("roc_auc")
+  select_best(metric = "roc_auc")
 
 ex_final_svm <- finalize_workflow(
   add_model(ex_wf, ex_svm_tune_spec),

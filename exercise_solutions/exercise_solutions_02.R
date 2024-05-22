@@ -16,7 +16,7 @@ ex_lasso_grid <- tune_grid(
 
 # Choose the best value using `select_best()`
 ex_lasso_highest_roc_auc <- ex_lasso_grid |>
-  select_best("roc_auc")
+  select_best(metric = "roc_auc")
 
 
 # Fit the final model -----------------------------------------------------
